@@ -31,7 +31,7 @@ cd simple-webpack-template
 npm install
 ```
 
-##How to use it?
+##Usage
 ```bash
 #dev environment
 npm run dev
