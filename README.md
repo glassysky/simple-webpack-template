@@ -6,10 +6,17 @@
 
 The following features are currently included:
 
- - Webpack-dev-middleware, Webpack-hot-middleware
+ - Realize HMR without Webpack-Dev-Server
  - Babel and JSX
  - Sass
- - Most important -> highly customizable
+ - Highly customizable
+
+##Plugins
+
+ - [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
+ - [webpack-hot-middleware](https://github.com/glenjamin/webpack-hot-middleware)
+ - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
+ - [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin)
 
 ##Install
 
@@ -29,6 +36,7 @@ npm install
 #dev environment
 npm run dev
 ```
+Only `dev` support now, `build` will come soon.
 
 ##License
 
