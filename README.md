@@ -38,6 +38,12 @@ npm run dev
 ```
 Only `dev` support now, `build` will come soon.
 
+##How it works?
+
+This template use `webpack` as a middleware of an `express` server.
+You can find it in `server.js`.
+
+
 ##License
 
 simple-webpack-template is available under MIT-License and can therefore be used in any project free of charge.
