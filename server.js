@@ -7,7 +7,6 @@ var http = require('http');
 var proxy = require('http-proxy-middleware');
 var config = require('./config');
 var webpackConfig = require('./webpack.config');
-var showFilesMiddleware = require('./middlewares/showFilesMiddleware');
 
 var port = process.env.PORT || 8000;
 
@@ -25,9 +24,6 @@ var devMiddleware = require('webpack-dev-middleware')(compiler, {
 });
 
 var hotMiddleware = require('webpack-hot-middleware')(compiler);
-
-
-
 
 // proxy api requests
 Object.keys(proxyTable).forEach(function (context) {
