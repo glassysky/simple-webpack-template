@@ -35,8 +35,10 @@ npm install
 ```bash
 #dev environment
 npm run dev
+
+#build
+npm run build
 ```
-Only `dev` support now, `build` will come soon.
 
 ##How it works?
 
